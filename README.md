@@ -60,14 +60,14 @@ GET http://localhost:8080/api/clima?cidade=Criciúma
 }
 ```
 
-### Rota POST `/api/process`
+### Rota POST `/api/processo`
 
 Processa os dados recebidos.
 
 **Exemplo de requisição:**
 
 ```bash
-POST http://localhost:8080/api/process
+POST http://localhost:8080/api/processo
 Content-Type: application/json
 {
   "name": "Exemplo",
